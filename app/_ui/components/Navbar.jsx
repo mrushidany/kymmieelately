@@ -1,11 +1,24 @@
 'use client'
+import Link from "next/link"
+import { usePathname } from "next/navigation"
 
 export default function Navbar() {
+    const pathname = usePathname()
   return (
     <>
-      <div className='w-full h-[62px] flex items-center px-20'>
+      <div className='w-full h-[122px] flex items-center px-40'>
         <nav className='flex flex-row justify-between'>
-
+            <ul className='flex flex-row gap-x-8 text-white-default uppercase text-[13px] font-semibold tracking-[1.2px]'>
+                <li>
+                    <Link href='/' className={`${pathname === '/' ? ' text-brown-default' : 'text-white-default hover:text-brown-default'}`}>Home</Link>
+                </li>
+                <li>
+                    <Link href='#' className={`${pathname === '/about' ? ' text-brown-default' : 'text-white-default hover:text-brown-default'}`}>About</Link>
+                </li>
+                <li>
+                    <Link href='#' className={`${pathname === '/blog' ? ' text-brown-default' : 'text-white-default hover:text-brown-default'}`}>Blog</Link>
+                </li>
+            </ul>
         </nav>
       </div>
     </>
