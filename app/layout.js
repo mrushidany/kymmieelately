@@ -26,7 +26,7 @@ const playFairDisplay = Playfair_Display({
 })
 
 export const metadata = {
-  title: "Kymmiee Lately",
+  title: "Home",
   description: "Kymmiee Lately",
 };
 
