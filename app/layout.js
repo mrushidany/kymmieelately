@@ -10,7 +10,7 @@ const teko = Teko({
 })
 
 const poppins = Poppins({
-  weight: ['400', '700'],
+  weight: ['400', '500', '700'],
   style: ['normal', 'italic'],
   subsets: ['latin'],
   display: 'swap',
