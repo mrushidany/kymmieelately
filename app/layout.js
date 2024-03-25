@@ -26,8 +26,8 @@ const playFairDisplay = Playfair_Display({
 })
 
 export const metadata = {
-  title: "Home",
-  description: "Kymmiee Lately",
+  title: 'HOME',
+  description: 'Kymmiee Lately',
 };
 
 export default function RootLayout({ children }) {
