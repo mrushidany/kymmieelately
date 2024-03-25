@@ -6,7 +6,13 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        teko: ['var(--font-teko)'],
+        poppins: ['var(--font-poppins)'],
+        playFairDisplay: ['var(--font-play-fair-display)'],
+      }
+    },
     colors: {
       transparent: 'transparent',
       'white': {
