@@ -17,18 +17,17 @@ module.exports = {
       transparent: 'transparent',
       'white': {
         default: '#FFFFFF',
-        100: '#F8F7F5',
       },
       'black': {
-        default: '#151515'
+        default: '#1D1D1D'
       },
       'brown': {
-        default: '#B19777'
+        default: '#9D6F4D',
+        100: '#E9D9C9',
+        200: '#F6F3EC'
       },
       'gray': {
-        default: '#888',
-        100: '#B7B095',
-        200: '#888888'
+        default: '#7B7A76',
       },
 
     }
