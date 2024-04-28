@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <>
       <div className='w-full h-[102px] flex items-center px-40'>
-        <nav className='w-full flex flex-row items-center justify-between'>
+        <nav className='hidden w-full lg:flex flex-row items-center justify-between'>
           <ul className='flex flex-row gap-x-8 text-white-default uppercase text-[13px] font-semibold tracking-[1.2px]'>
             <li>
               <Link href='/' className={`${pathname === '/' ? ' text-brown-default' : 'text-white-default hover:text-brown-default'}`}>Home</Link>
@@ -33,6 +33,17 @@ export default function Navbar() {
               <Link href='#' className={`${pathname === '/contact-us' ? ' text-brown-default' : 'text-white-default hover:text-brown-default'}`}>Contact us</Link>
             </li>
           </ul>
+        </nav>
+        <nav className='w-full lg:hidden flex flex-row justify-between items-center'>
+          <div>
+
+          </div>
+          <Link href='/'>
+            <img src='/images/icon.webp' priority className='w-[221.47px] h-[63.27px] object-cover shrink-0' width={0} height={0} />
+          </Link>
+          <div>
+
+          </div>
         </nav>
       </div>
     </>
