@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <main className="w-full bg-black-default min-h-screen font-poppins">
       <Navbar />
-      <div className={`w-full h-screen grid lg:grid-cols-${categories.length} bg-transparent`}>
+      <div className={`w-full h-screen grid grid-cols-1 lg:grid-cols-${categories.length} bg-transparent`}>
         {categories.map((item, index) => (
           <div key={index} className={`${index == (categories.length - 1) ? '' : 'border-r-[1px] border-solid border-brown-200'} flex flex-col gap-2 px-4 py-10 uppercase`}>
             <p className='text-[11px]'>Category</p>
