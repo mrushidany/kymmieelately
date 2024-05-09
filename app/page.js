@@ -3,9 +3,9 @@ import Navbar from './_ui/components/Navbar'
 export default function Home() {
   const categories = [
     { name: 'Lifestyle', backgroundImage: '', slug: '' },
-    { name: 'Travel',  backgroundImage: '', slug: '' },
-    { name: 'Content Creation',  backgroundImage: '', slug: '' },
-    { name: 'Dating + Relationship',  backgroundImage: '', slug: '' },
+    { name: 'Self Improvement',  backgroundImage: '', slug: '' },
+    { name: 'Fitness',  backgroundImage: '', slug: '' },
+    { name: 'Relationships',  backgroundImage: '', slug: '' },
   ]
   return (
     <main className="w-full bg-black-default min-h-screen font-poppins">
