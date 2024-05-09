@@ -1,12 +1,20 @@
+'use client'
+
+import { useState } from 'react'
 import Navbar from './_ui/components/Navbar'
 
 export default function Home() {
+  const [ activeCategory, setActiveCategory ] = useState(0)
+
   const categories = [
     { name: 'Lifestyle', backgroundImage: '', slug: '' },
     { name: 'Self Improvement',  backgroundImage: '', slug: '' },
     { name: 'Fitness',  backgroundImage: '', slug: '' },
     { name: 'Relationships',  backgroundImage: '', slug: '' },
   ]
+
+  const activeBackgroundImage = categories[activeCategory].backgroundImage
+  
   return (
     <main className="w-full bg-black-default min-h-screen font-poppins">
       <Navbar />
