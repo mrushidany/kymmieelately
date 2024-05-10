@@ -30,7 +30,7 @@ export default function Home() {
             </div>
           ))}
         </div>
-        <div className='hidden lg:block w-full h-[10%] bg-white-default'>
+        <div className='hidden w-full h-[10%] bg-white-default lg:grid grid-cols-4'>
 
         </div>
       </div>
