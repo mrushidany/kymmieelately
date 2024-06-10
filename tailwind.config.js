@@ -24,12 +24,13 @@ module.exports = {
       'brown': {
         default: '#9D6F4D',
         100: '#E9D9C9',
-        200: '#F6F3EC'
+        200: '#F6F3EC',
+        300: '#F8F7F5',
+        400: '#ADACAB'
       },
       'gray': {
         default: '#7B7A76',
       },
-
     }
   },
   plugins: [],
