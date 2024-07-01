@@ -13,7 +13,7 @@ export default function Navbar() {
               <Link href='/' className={`${pathname === '/' ? ' text-brown-default' : 'text-white-default hover:text-brown-default'}`}>Home</Link>
             </li>
             <li>
-              <Link href='#' className={`${pathname === '/about' ? ' text-brown-default' : 'text-white-default hover:text-brown-default'}`}>About</Link>
+              <Link href='/about' className={`${pathname === '/about' ? ' text-brown-default' : 'text-white-default hover:text-brown-default'}`}>About</Link>
             </li>
             <li>
               <Link href='#' className={`${pathname === '/blog' ? ' text-brown-default' : 'text-white-default hover:text-brown-default'}`}>Blog</Link>
