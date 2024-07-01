@@ -6,8 +6,8 @@ export default function Header({ title, description }) {
   return (
     <>
         <Helmet>
-            <title>{title}</title>
-            <meta description={description} />
+          <title>{title}</title>
+          <meta description={description} />
         </Helmet>
     </>
   )
